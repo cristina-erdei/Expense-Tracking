@@ -1,0 +1,27 @@
+.containerStyle {
+    display: flex;
+    justify-content: space-around;
+}
+
+.containerStyle > div {
+    flex:1;
+    text-align: center;
+}
+
+
+.containerStyle > div:first-of-type {
+    border-right: 1px solid #dedede;
+}
+
+
+.balance{
+    margin: 5px 0;
+    font-size: 20px;
+}
+.incomeBalance {
+    color:darkgreen;
+}
+
+.expenseBalance{
+    color:darkred;
+}
